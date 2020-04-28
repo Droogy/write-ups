@@ -15,38 +15,38 @@ SSH information `bandit.labs.overthewire.org -p 2220`
 >HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
 ### bandit8
 >cvX2JJa4CFALtqS87jk27qwqGhBM9plV
-###bandit9
+### bandit9
 >UsvVyFSfZZWbi6wgC7dAFyFuR6jQQUhR
-###bandit10
+### bandit10
 >truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
-###bandit11
+### bandit11
 >IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
-###bandit12
+### bandit12
 >5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
-###bandit13
+### bandit13
 >8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
-###bandit14
+### bandit14
 >4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
-###bandit15
+### bandit15
 >BfMYroe26WYalil77FoDi9qh59eK5xNr
-###bandit16
+### bandit16
 >cluFn7wTiGryunymYOu4RcffSxQluehd
-###bandit17
+### bandit17
 >see bandit17.txt 
 ### bandit18
 >kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 ### bandit19
-	IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+>IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
 solved with `ssh bandit18@bandit.labs.overthewire.org -p 2220 'bash -s' < banditscript.sh `
 ### bandit20
-	GbKksEFF4yrVs6il55v6gwY5aVje5f0j
-###bandit21
-	gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
-###bandit22
-	Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
-###bandit23
-	jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
-###bandit24
+>GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+### bandit21
+>gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+### bandit22
+>Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+### bandit23
+>jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+### bandit24
 	UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 
 We discover a cronjob running which executes and then deletes everything in /var/spool/bandit24 every 60 seconds
 ```bash
@@ -83,7 +83,7 @@ Now we wait (or keep spamming lol) and cat our password file
 	
 >UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ 
 
-###bandit24
+### bandit24
 >uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
 
 This one was a bit tricky. 
