@@ -47,8 +47,8 @@ Now this code actually worked well but I made a critical mistake. While I learne
 
 I reached out to the challenge author to audit my code real quick which he said was technically sound but pointed out my mistake for stripping all punctuation and he also pointed out another mistake I had made in using the screenplay for the movie as opposed to an actual transcription of the movie, because actors are often subject to improvising lines which may not be in the script. D'oh!
 
-I thought for a moment about how the hell to get a transcription of a movie and (duh) realized I just needed subtitles. In the following version of my script I did away with the >string module in favor of the >re module which I felt was better suited for stripping away certain punctuation.
-I also cleaned up the srt file a bit using find-and-replace via Sublime 3 in order to strip away certain <\b> tags littered throughout the file.
+I thought for a moment about how the hell to get a transcription of a movie and (duh) realized I just needed subtitles. In the following version of my script I did away with the string module in favor of the re module which I felt was better suited for stripping away certain punctuation.
+I also cleaned up the srt file a bit using find-and-replace via Sublime 3 in order to strip away certain < b> tags littered throughout the file.
 
 ```python3
 # hash a string into md5
@@ -76,6 +76,6 @@ with open('titanic_srt.txt', 'r') as file:
 				break
 ```
  We the run the code and boom!
- >\[*\] Hash found!
-tjctf{marlborough's}
-9326ea0931baf5786cde7f280f965ebb
+>\[*\] Hash found!
+>tjctf{marlborough's}
+>9326ea0931baf5786cde7f280f965ebb
